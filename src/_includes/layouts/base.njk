@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{% if title %}{{ title }} – {% endif %}Minhas Anotações</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="description" content="Notas pessoais e estudos" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <h1 class="site-title"><a href="/">Minhas Anotações</a></h1>
+        <nav class="main-nav">
+          <a href="/">Home</a>
+          <a href="/notes/">Notas</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <article>
+        {{ content | safe }}
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">© {{ "now" | date("YYYY") }} — Seu Nome</div>
+    </footer>
+  </body>
+</html>
