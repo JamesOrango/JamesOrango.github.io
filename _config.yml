@@ -1,0 +1,6 @@
+title: Jamesorango
+description: Blog pessoal sobre tecnologia, Python e LLMs.
+baseurl: "" 
+url: "https://jamesorango.com.br"
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
