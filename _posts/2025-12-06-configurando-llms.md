@@ -1,13 +1,7 @@
 ---
 layout: post
-title: "Configurando LLMs locais com Python"
-date: 2025-12-06
+title: "Peter Pan Syndrome - PUER AETERNUS"
+date: 2025-12-07
 ---
-
-Este é o parágrafo de resumo que aparecerá na página inicial.
-
-A partir daqui é o conteúdo completo do estudo. Como você gosta de **Python**, pode colocar código facilmente:
-
-```python
-import os
-print("Olá, Jamesorango!")
+"Se eu não começo, eu não fracasso.". O ego se importa mais com o sofrimento/coisas conhecidas. O disconhecido certamente é desafiador. Existem muitas contradições no pensamento/agir das pessoas, que quando parado para analisar, fazem todo sentido. Uma dúvida que eu tive logo ao entrar na faculdade foi:"diante do contexto que estou estudando para entrar numa faculdade pública, competindo com pessoas na mesma condição que eu - principalmente condições financeiras semelhantes(no sentido que estava concorrendo pra vagas de ampla concorrência, o que também poderiam haver pessoas de colégio público e de outros estados, visto que minha faculdade é um top2 do vestibular), porque caralhas eu, que estudei de verdade somente no terceiro ano do ensino médio, em um colégio privado top 20 da minha cidade, consegui passar de primeira no curso que eu queria? ou, porque o nível é tão baixo? Era fato que eu não entrei pra um dos cursos mais concorridos, mas com a nota que eu tirei eu não passava em 3 ou 4 cursos de mais de 30. Isso me deixou muito intrigado, não entendi muito bem se essa situação estava relacionada com a precarização da reputação de se ter um diploma no período atual ou se realmente era um fenômeno brasileiro de que, mesmo dentro da "elite"(visto que metade das vagas são públicas, metade abertas para todos), a cultura do estudo não estava presente. Mas uma coisa eu tinha certeza, eu não sou um gênio, inclusive, bem longe disso.
+O que realmente leva uma pessoa a passar no vestibular e outras não? é evidente que na vida "

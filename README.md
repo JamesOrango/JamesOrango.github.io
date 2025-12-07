@@ -1,14 +1,3 @@
-# Personal Notes Site
+# Personal Notes
 
-Gerado com Eleventy. Para rodar localmente:
-
-```
-npm install
-npm run start
-```
-
-Build:
-
-```
-npm run build
-```
+Tiago Laranjo's site.
