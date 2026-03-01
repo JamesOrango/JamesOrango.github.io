@@ -1,6 +1,0 @@
-title: Jamesorango
-description: JamesOrango unoriginal Thoughts
-baseurl: "" 
-url: "https://jamesorango.com.br"
-markdown: kramdown
-permalink: /:year/:month/:day/:title/
