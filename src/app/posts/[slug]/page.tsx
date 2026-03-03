@@ -32,8 +32,8 @@ export default async function PostPage({ params }: PageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-[#0c0b0a] text-stone-200">
-      <main className="mx-auto max-w-2xl px-6 py-24 sm:px-10">
+    <div className="page-fade-in min-h-screen bg-[#0c0b0a] text-stone-200">
+      <main className="mx-auto max-w-3xl px-6 py-24 sm:px-10">
         <Link
           href="/"
           className="mb-14 inline-block text-sm text-stone-500 transition-colors hover:text-stone-300"
@@ -42,7 +42,7 @@ export default async function PostPage({ params }: PageProps) {
           ← Back
         </Link>
 
-        <article>
+        <article className="text-left">
           <h1
             className="text-3xl font-medium tracking-tight text-stone-50 sm:text-4xl"
             style={{ fontFamily: "var(--font-heading)" }}
@@ -52,7 +52,7 @@ export default async function PostPage({ params }: PageProps) {
           {post.data.date && (
             <time
               dateTime={post.data.date}
-              className="mt-5 block text-stone-500"
+              className="mt-6 block text-stone-500"
               style={{ fontFamily: "var(--font-body)" }}
             >
               {formatDate(post.data.date)}
@@ -60,13 +60,16 @@ export default async function PostPage({ params }: PageProps) {
           )}
 
           <div
-            className="prose prose-invert mt-14 max-w-none
+            className="prose prose-invert mt-14 max-w-none text-left text-lg
               prose-headings:text-stone-100
+              prose-h2:mt-10 prose-h2:mb-4 prose-h2:font-semibold
+              prose-h3:mt-8 prose-h3:mb-3 prose-h3:font-semibold
               prose-p:text-stone-300 prose-p:leading-[1.8]
               prose-a:text-stone-200 prose-a:underline prose-a:underline-offset-4 hover:prose-a:text-stone-50
               prose-code:rounded prose-code:bg-stone-800/60 prose-code:px-1.5 prose-code:py-0.5 prose-code:text-stone-300 prose-code:before:content-none prose-code:after:content-none prose-code:font-mono
               prose-pre:bg-stone-900 prose-pre:text-stone-200
-              prose-strong:text-stone-200
+              prose-blockquote:mt-8 prose-blockquote:mb-8 prose-blockquote:border-l-2 prose-blockquote:border-stone-500/60 prose-blockquote:bg-stone-900/30 prose-blockquote:px-5 prose-blockquote:py-3 prose-blockquote:italic prose-blockquote:text-stone-300
+              prose-strong:text-stone-100
               prose-li:text-stone-300 prose-h1:font-medium prose-h2:font-medium prose-h3:font-medium"
             style={{ fontFamily: "var(--font-body)" }}
           >
